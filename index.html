@@ -31,13 +31,41 @@
           >
 
           <div class="nav__toggle" id="nav-toggle">
-            <i class="ri-menu-4-line nav__menu"></i>
+            <i class="ri-menu-4-line nav__burger"></i>
             <i class="ri-close-circle-line nav__menu-close"></i>
           </div>
         </div>
         <!-- nav menu -->
-        <div class="nav__menu" id="nav-menu"></div>
+        <div class="nav__menu show-menu" id="nav-menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#!" class="nav__link">Home</a>
+            </li>
+            <li>
+              <a href="#!" class="nav__link">Company</a>
+            </li>
+            <!-- Dropdown 1 -->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Analytics<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+            </li>
+            <li>
+              <a href="#!" class="nav__link">Products</a>
+            </li>
+            <!-- Dropdown 2 -->
+            <li class="dropdown__item">
+              <div class="nav__link">
+                Users<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+              </div>
+            </li>
+            <li>
+              <a href="#!" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
+    <script src="./assets/JS/main.js"></script>
   </body>
 </html>
